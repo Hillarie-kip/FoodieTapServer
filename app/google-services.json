@@ -1,0 +1,107 @@
+{
+  "project_info": {
+    "project_number": "498383840416",
+    "firebase_url": "https://foodietap.firebaseio.com",
+    "project_id": "foodietap",
+    "storage_bucket": "foodietap.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:498383840416:android:5b36759bf7892e90",
+        "android_client_info": {
+          "package_name": "com.techkip.foodietapclient"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "498383840416-e82cdfoas2cg6plb21i8htc8ps1gu16o.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.techkip.foodietapclient",
+            "certificate_hash": "798e1a1f0d865f3903d348ba889534740f1c3d21"
+          }
+        },
+        {
+          "client_id": "498383840416-e4ri95d6ujforj556821fjgf1tt61l69.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "498383840416-e4ri95d6ujforj556821fjgf1tt61l69.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDpcHSoixdavH-BQSeHrGrFXYV7PVVoUDc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "498383840416-e4ri95d6ujforj556821fjgf1tt61l69.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:498383840416:android:d5df71352a6feee2",
+        "android_client_info": {
+          "package_name": "com.techkip.foodietapserver"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "498383840416-bk4r8fqueq1n1q6tcapevsi1ug5rhh9q.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.techkip.foodietapserver",
+            "certificate_hash": "798e1a1f0d865f3903d348ba889534740f1c3d21"
+          }
+        },
+        {
+          "client_id": "498383840416-e4ri95d6ujforj556821fjgf1tt61l69.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "498383840416-e4ri95d6ujforj556821fjgf1tt61l69.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDpcHSoixdavH-BQSeHrGrFXYV7PVVoUDc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "498383840416-e4ri95d6ujforj556821fjgf1tt61l69.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

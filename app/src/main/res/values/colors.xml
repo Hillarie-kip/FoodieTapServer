@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="loc">#c7290d</color>
+    <color name="contac">#ff000d</color>
+    <color name="primaryLight">#b20c2440</color>
+    <color name="green">#00FF00</color>
+    <color name="blue">#002aff</color>
+    <color name="red">#ff0000</color>
+    <color name="white">#ffffff</color>
+    <color name="black">#000000</color>
+    <color name="orange">#e4405f</color>
+    <color name="colorPrimary">#0c2440</color>
+    <color name="colorPrimaryLight">#b10c2440</color>
+    <color name="colorPrimaryDark">#0b1f36</color>
+    <color name="colorAccent">#039103</color>
+    <color name="feed_bg">#d3d6db</color>
+    <color name="feed_item_bg">#ffffff</color>
+    <color name="feed_item_border">#c2c3c8</color>
+    <color name="link">#0a80d1</color>
+    <color name="timestamp">#a0a3a7</color>
+    <color name="primary_text">#3cff00</color>
+    <color name="divider">#BDBDBD</color>
+    <color name="background">#5c29f5</color>
+    <color name="transparent">#00ffffff</color>
+
+
+</resources>
+    <!--ff4400 21be77 f4522b  069f5a 0c2440 0a223d d65527-->

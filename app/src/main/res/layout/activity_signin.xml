@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+
+        >
+
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:hint="Phone Number"
+            android:text="0720"
+            android:id="@+id/et_phone"
+            android:inputType="phone"
+            app:met_maxCharacters="10"/>
+
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:hint="Password"
+            android:text="1234"
+            android:id="@+id/et_password"
+            android:inputType="textPassword"
+          />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:weightSum="2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <com.rey.material.widget.CheckBox
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                style="@style/Material.Drawable.CheckBox"
+                android:text="Remember me !"
+                android:gravity="center_vertical"
+                android:id="@+id/cbk_remember"
+                app:cbd_strokeColor="@color/colorAccent"
+                app:cbd_tickColor="@color/colorAccent"/>
+            <TextView
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                style="@style/Material.Drawable.CheckBox"
+                android:text="Forgot Password???"
+                android:gravity="center_vertical"
+                android:id="@+id/tv_forgotPass" />
+
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+    <info.hoang8f.widget.FButton
+        android:id="@+id/btn_signIn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:layout_alignParentBottom="true"
+        android:shadowColor="@color/colorPrimaryDark"
+        android:text="Sign in" />
+</RelativeLayout>

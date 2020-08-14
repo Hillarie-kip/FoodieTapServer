@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardElevation="10dp"
+    android:layout_margin="5dp"
+    app:cardCornerRadius="5dp"
+    app:cardBackgroundColor="@color/white"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ImageView
+            android:src="@drawable/meal"
+            android:scaleType="centerCrop"
+            android:layout_width="match_parent"
+            android:id="@+id/iv_foodImage"
+            android:layout_height="200dp"
+            />
+
+        <LinearLayout
+            android:layout_marginLeft="5dp"
+            android:id="@+id/one"
+            android:layout_marginTop="5dp"
+            android:layout_below="@+id/iv_foodImage"
+            android:orientation="horizontal"
+            android:weightSum="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <TextView
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:layout_below="@+id/iv_menuImage"
+                android:textColor="@color/colorAccent"
+                android:text="Description : "
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:textSize="15dp"
+                android:layout_below="@+id/iv_foodImage"
+                android:id="@+id/txt_foodDescription"
+                android:textColor="@color/black"
+                android:text="Description"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_below="@+id/one"
+            android:id="@+id/two"
+            android:orientation="horizontal"
+            android:weightSum="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <TextView
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:layout_below="@+id/iv_menuImage"
+                android:textColor="@color/colorAccent"
+                android:text="Meal Name : "
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:layout_below="@+id/txt_foodDescription"
+                android:id="@+id/txt_foodName"
+                android:textColor="@color/black"
+                android:text="Kuku"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/three"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_below="@+id/two"
+            android:orientation="horizontal"
+            android:weightSum="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <TextView
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:textColor="@color/colorAccent"
+                android:text="Price : "
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:id="@+id/txt_foodPrice"
+                android:textColor="@color/black"
+                android:text="300"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="10dp"
+            android:layout_below="@+id/three"
+            android:orientation="horizontal"
+            android:weightSum="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <TextView
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:textColor="@color/colorAccent"
+                android:text="Offer : "
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:id="@+id/txt_foodOffer"
+                android:textColor="@color/black"
+                android:text="by 2 get 2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+      
+
+
+    </RelativeLayout>
+
+</android.support.v7.widget.CardView>
